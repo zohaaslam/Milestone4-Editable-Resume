@@ -1,0 +1,110 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 0;
+  
+
+
+}
+
+h1{
+    color: purple;
+    text-align: center;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    
+
+}
+fieldset{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid purple;
+    background-color:blanchedalmond;
+    
+}
+
+legend{
+    font-weight: bold;
+    color: purple;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea{
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    
+
+}
+
+button{
+    display: block;
+    background-color: rgb(230, 165, 0);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: darksalmon;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid purple;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: brown;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+p {
+    color: purple;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.profilepicture {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Fixed to create a perfect circle */
+    border: 2px solid rgb(141, 26, 141);
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgb(141, 26, 141);
+} 
